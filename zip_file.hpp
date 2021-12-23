@@ -5663,7 +5663,7 @@ private:
             buffer_[buffer_.size() - 2] = 0;
         }
     }
-
+public:
     zip_info getinfo(int index)
     {
         if(archive_->m_zip_mode != MZ_ZIP_MODE_READING)
